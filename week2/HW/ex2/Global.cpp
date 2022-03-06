@@ -19,3 +19,4 @@ int CompareMoney(Wave a, Wave b)
 		return -1;
 	else return 1;
 }
+//hai ca dam commit

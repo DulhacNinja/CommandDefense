@@ -23,4 +23,4 @@ public:
 	void SetMoneyPerEnemy(float number);
 	float GetMoneyPerEnemy();
 };
-
+//hai ca dam commit

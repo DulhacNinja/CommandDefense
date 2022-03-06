@@ -39,5 +39,5 @@ float Wave::GetMoneyPerEnemy()
 {
 	return moneyPerEnemy;
 }
-
+//hai ca dam commit
 

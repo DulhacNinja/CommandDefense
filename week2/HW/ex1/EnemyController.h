@@ -27,3 +27,4 @@ public:
     int CountKilledEnemies(); //returns the number of enemeies which are dead
     bool SpawnEnemy(); //if it can add the new enemy with ENEMY_HEALTH health value returns true, otherwise false
 };
+//hai ca dam commit

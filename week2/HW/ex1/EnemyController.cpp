@@ -36,6 +36,7 @@ void EnemyController::DamageAll()
          enemies[i].Shoot(dmg);
      }
 }
+//hai ca dam commit
 int EnemyController::CountKilledEnemies()
 {
     int dead=0;

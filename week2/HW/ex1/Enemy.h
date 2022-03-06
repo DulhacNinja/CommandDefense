@@ -15,3 +15,4 @@ public:
     bool IsDead();//returns true is current health is lower or equal to 0
     void Shoot(int damage); //decrease the health by damage
 };
+//hai ca dam commit
