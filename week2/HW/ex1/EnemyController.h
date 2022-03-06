@@ -1,6 +1,7 @@
 #pragma once
 
 #include "EnemiesStructures.h"
+#include "Enemy.h"
 class Enemy; //forward declaration
 
 #define ENEMY_HEALTH 10
@@ -9,12 +10,16 @@ class EnemyController
 {
 private:
     //Place here other required variables
-    Enemy* enemies;
+    int maxEnemies;
+    Enemy enemies[30];
     int stepSize;
-    Point startinLocation;
+    Point startingLocation;
+    EnemyDirection direction;
+    int dmg=5;
 
 public:
-    void Init(int maximumEnemies, int step, Point initialLocation); // set maxEnemies and stepSize and allocated enemies and do the rest of initialization
+    void Init(int maximumEnemies, int step, Point initialLocation); 
+    // set maxEnemies and stepSize and allocated enemies and do the rest of initialization
     void Uninit();//delete allocated resources
 
     void Move();//move all spawned enemies (current enemies)

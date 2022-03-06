@@ -1,12 +1,12 @@
 #include <iostream>
 #include "EnemyController.h"
-
+//can't have 2 main() functions, you silly goose
 int main()
 {
     Point initialLocation;
     initialLocation.x = 10;
     initialLocation.y = 10;
-
+        
     EnemyController controller;
     controller.Init(10, 2, initialLocation);
 
